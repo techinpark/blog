@@ -1,0 +1,97 @@
+body.light {
+  background-color: $light-background-color;
+  text-shadow: $light-text-shadow;
+
+  // home
+  .home-header {
+    color: $dark-gray;
+  }
+
+  header {
+    .link {
+      color: $dark-gray
+    }
+  }
+
+  .bio {
+    .author-name-content {
+      background-color: $light-category-border-color;
+    }
+    .author-introduction {
+      color: $middle-gray;
+    }
+    a {
+      color: $light-link-color;
+    }
+  }
+
+  .category-container {
+    border-top: 1px solid $light-category-border-color;
+    border-bottom: 1px solid $light-category-border-color;
+    border-right: 6px solid $light-category-border-color;
+    border-left: 6px solid $light-category-border-color;
+    background-color: $light-category-background-color;
+    .item {
+      border: 1px solid $light-category-border-color;
+      background-color: $light-category-item-color;
+      -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+      a {
+        color: $light-category-text-color;
+      }
+      &[aria-selected='true'] {
+        border: 2px solid $light-category-highlight-border-color;
+        font-weight: bolder;
+      }
+      &[aria-selected='true'] a {
+        color: $light-category-highlight-text-color;
+      }
+    }
+  }
+
+  .thumbnail {
+    border-top: .5px solid #efefef;
+
+    h3 {
+      color: $dark-gray;
+      font-size: 2rem;
+    }
+    p {
+      color: $middle-gray;
+    }
+    small {
+      background-repeat: no-repeat no-repeat;
+      border-width: 0;
+      box-sizing: border-box;
+      color: rgba(235,235,245,0);
+      font-size: 15px;
+      margin: 11px 0 0;
+      padding: 0;
+      vertical-align: baseline;
+    }
+    &:hover {
+      opacity: .75;
+    }
+  }
+
+  .footer {
+    color: $light-gray;
+    a {
+      color: $dark-gray;
+    }
+  }
+
+  header {
+    h1 {
+      margin-top: 3.5rem;
+    }
+  }
+
+  // post
+  .navigator {
+    a {
+      background-color: $navigator-background-color;
+      color: $navigator-text-color;
+    }
+  }
+}
