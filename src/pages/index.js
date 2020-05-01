@@ -3,7 +3,6 @@ import { graphql } from 'gatsby'
 import _ from 'lodash'
 
 import { Layout } from '../layout'
-import { Bio } from '../components/bio'
 import { Head } from '../components/head'
 import { Contents } from '../components/contents'
 

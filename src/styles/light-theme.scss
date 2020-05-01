@@ -87,6 +87,19 @@ body.light {
     }
   }
 
+  .post{
+      p {
+      font-size: 17px;
+      letter-spacing: 0;
+      line-height: 1.7; 
+    }
+  }
+
+  .post-date {
+    color: #767778;
+  }
+
+
   // post
   .navigator {
     a {

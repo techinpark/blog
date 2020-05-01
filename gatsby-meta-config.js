@@ -1,6 +1,6 @@
 module.exports = {
-  title: `Fernando\n 기술 블로그`,
-  description: ``,
+  title: `Fernando 기술 블로그`,
+  description: `생각하고 배운것을 정리하기 위한 블로그입니다`,
   author: `fernando`,
   introduction: `새로운 오픈소스를 적용하고 만드는것을 좋아합니다.`,
   siteUrl: `https://gatsby-starter-bee.netlify.com`, // Your blog site url
@@ -21,7 +21,7 @@ module.exports = {
     countOfInitialPost: 10, // Config your initial count of post
   },
   sponsor: {
-    buyMeACoffeeId: 'jbee',
+    buyMeACoffeeId: 'techinpark',
   },
   share: {
     facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2
