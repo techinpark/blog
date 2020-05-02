@@ -13,6 +13,10 @@ body.light {
     }
   }
 
+  a {
+    color: $dark-gray;
+  }
+
   .bio {
     .author-name-content {
       background-color: $light-category-border-color;

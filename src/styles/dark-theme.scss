@@ -10,8 +10,12 @@ body.dark {
 
   header {
     .link {
-      color: $dark-light-font-color
+      color: $dark-light-font-color;
     }
+  }
+
+  a {
+    color: $dark-light-font-color;
   }
 
   .bio {
