@@ -38,9 +38,12 @@ description: Github 프로필에 Working Time를 표시할 수 있는 오픈소�
 GH_TOKEN : 생성한 GITHUB 토큰을 입력하여 저장합니다.  
 GIST_ID :  Gist URL주소의 뒷부분을 입력하여 저장합니다.
 ```
+
+- `Secrets` 등록이 끝난후 `Actions` 탭을 클릭하여 들어갑니다. 
+
+- 들어간 이후 `Enable` 버튼을 눌러 `Actions`를 활성화 시켜주셔야 합니다. 
+
 - 모든 설정이 끝났습니다 프로필로 돌아가셔서 `Pinned` 처리 해주시면 됩니다. 
-
-
 
 
 ## 적용 완료 🤖
