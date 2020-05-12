@@ -21,7 +21,7 @@ description: Github 프로필에 Working Time를 표시할 수 있는 오픈소�
 
 > 원작자의 `Repository` 에서 `Fork` 받아 국내 실정에 맞게 설정을 약간 변경하였습니다. 
 
-- Github 에 들어가서 새로운 `Gist`를 생성합니다. (https://gist.github.com)
+- Github 에 들어가서 새로운 `Public Gist`를 생성합니다. (https://gist.github.com)
 - Github 의 토큰을 생성합니다.  (https://github.com/settings/tokens/new)
 > 권한을 이용하는 작업이기 때문에 위험하지만 해당 오픈소스에서는 `Gist` 파일을 `Github Actions`를 이용해 내용 업데이트 할때에만 사용합니다. 
 
