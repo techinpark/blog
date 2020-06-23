@@ -22,7 +22,7 @@ description: Github 프로필에 Working Time를 표시할 수 있는 오픈소�
 > 원작자의 `Repository` 에서 `Fork` 받아 국내 실정에 맞게 설정을 약간 변경하였습니다. 
 
 - Github 에 들어가서 새로운 `Public Gist`를 생성합니다. (https://gist.github.com)
-- Github 의 토큰을 생성합니다.  (https://github.com/settings/tokens/new)
+- Github 토큰을 repo와 gist 두 가지를 선택한 채로 생성합니다.  (https://github.com/settings/tokens/new)
 > 권한을 이용하는 작업이기 때문에 위험하지만 해당 오픈소스에서는 `Gist` 파일을 `Github Actions`를 이용해 내용 업데이트 할때에만 사용합니다. 
 
 - 새로 생성한 `Gist` 의 URL 주소의 뒷부분을 복사합니다. 
@@ -39,7 +39,7 @@ GH_TOKEN : 생성한 GITHUB 토큰을 입력하여 저장합니다.
 GIST_ID :  Gist URL주소의 뒷부분을 입력하여 저장합니다.
 ```
 
-- `Secrets` 등록이 끝난후 `Actions` 탭을 클릭하여 들어갑니다. 
+- `Secrets` 등록이 끝난후 상단에 있는 `Actions` 탭을 클릭하여 들어갑니다. 
 
 - 들어간 이후 `Enable` 버튼을 눌러 `Actions`를 활성화 시켜주셔야 합니다. 
 
