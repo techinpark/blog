@@ -1,7 +1,7 @@
 ---
 title: 점심메뉴 오늘은 뭐나와요? 한식뷔페 메뉴봇 개발기
 date: 2020-11-08 22:36:02
-category: ios
+category: general
 draft: false 
 description: pangyo-smilecook 봇 개발 에피소드 공유
 ---
