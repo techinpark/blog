@@ -44,7 +44,7 @@ description: pangyo-smilecook 봇 개발 에피소드 공유
 
 ## 자, 그럼 만들어 볼까? 👨🏻‍💻
 
-![](https://media2.giphy.com/media/26AHONQ79FdWZhAI0/giphy.gif?cid=ecf05e47c5d985ebebe2c93e41e67e6036ceba49a4d2b19d&rid=giphy.gif)
+<p align="center"><img src="https://media2.giphy.com/media/26AHONQ79FdWZhAI0/giphy.gif?cid=ecf05e47c5d985ebebe2c93e41e67e6036ceba49a4d2b19d&rid=giphy.gif" width="70%"></p>
 
 아이디어는 간단합니다. 매주 새로운 식단표를 업데이트하고 그것을 슬랙으로 공유해주면 됩니다.  
 매번 같은시간에 공유를 하기위해서는 서버가 필요한데 `Github` 에서 제공해주는 `Github Actions`를 이용하면 해결이 됩니다.   
@@ -55,7 +55,8 @@ description: pangyo-smilecook 봇 개발 에피소드 공유
   
 
 
-![](../../assets/2020-11-10/data.png)  
+<p align="center"><img src="../../assets/2020-11-10/data.png" width="70%"></p>
+
 매주 새로운 식단표는 일 단위로 끊어서 `YYYY-MM-DD.md` 형태로 만들었습니다.   
 그럼 봇이 오늘에 해당하는 날짜의 파일을 읽어와서 파일의 내용을 간단하게 슬랙으로 보내주는 형태입니다.   
 슬랙 봇을 사용하고 싶으시다면 아래에 있는 링크를 통해서 접속하시면 됩니다 
@@ -66,18 +67,18 @@ description: pangyo-smilecook 봇 개발 에피소드 공유
 
 ## 실제로 사용해보니 생긴 에피소드들 
 
-- 갑작스럽게 터진 코로나 이슈로 인해 봇 중지 😷  
+### 갑작스럽게 터진 코로나 이슈로 인해 봇 중지 😷  
 
 아쉽게도 코로나 때문에 사회적 거리두기가  `2.5단계`로 격상 되는 바람에 봇을 만든지 얼마 되지 않아 재택근무로 전환이 되는 바람에 봇을 한달반 정도 돌리지 못하였습니다. 
 
 
-![](../../assets/2020-11-10/icantwaitchiken.png)  
+<p align="center"><img src="../../assets/2020-11-10/icantwaitchiken.png" width="70%"></p>
 
-- 한식뷔페 알림을 기다리시는 분들이 생기다 🎉  
+### 한식뷔페 알림을 기다리시는 분들이 생기다 🎉  
 
 한식뷔페 봇에 메뉴를 궁금해하시는 분들이 생기기 시작했습니다. 이러한 소소한 재미가 새로운 토이 프로젝트를 하는데 자극이 되어서 계속 유지할 수 있는 원동력이 되는것 같습니다. 슬랙의 특성상 쓰레드로 댓글을 계속 추가할 수 있다보니 맛있는 메뉴가 나오는날 쓰레드가 많이 달릴 수도 있는것이 재미 포인트 인 것 같습니다.
 
-> 🍯 Tip > 매주 금요일날에는 치킨이 나옵니다. 
+> 🍯 Tip)  매주 금요일날에는 치킨이 나옵니다. 
 
 
 ## 마치며  ✍🏻
