@@ -1,6 +1,6 @@
 ---
 title: 맥에서 1일 1커밋 관리를 효과적으로 하기
-date: 2020-01-11 11:28:02
+date: 2021-02-03 01:35:02
 category: develop
 draft: false
 description: Jandi status bar 를 이용한 1일 1커밋 목표 지키기
