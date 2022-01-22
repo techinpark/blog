@@ -2,7 +2,7 @@
 title: 2021년 마무리 회고
 date: 2021-12-31 01:34:00
 category: general
-draft: true
+draft: false
 description: 2021년을 마무리 지으며 회고를 남깁니다
 ---
 
