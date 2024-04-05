@@ -6,7 +6,7 @@ draft: false
 description: appstore-status-bot 설정 가이드
 ---
 
-Apple은 5월 1일 부터, 새로운 개인정보 보호정책을 적용한 privacy manifest 파일에 `Required Reason API`를 사용한 이유를 설명하지 않은 앱들은 업데이트를 허용하지 않을 예정이라고 발표하였습니다. 
+Apple은 5월 1일 부터, 새로운 개인정보 보호정책을 적용하여 `Required Reason API`를 사용한 이유를 설명하지 않은 앱들은 업데이트를 허용하지 않을 예정이라고 발표하였습니다. 
 
  그렇다면 `Required Reason API`는 어떤 것들이 있고 어떻게 대응을 해야할까요? 
 [공식문서](https://developer.apple.com/documentation/bundleresources/privacy_manifest_files/describing_use_of_required_reason_api)에 설명되어있어 링크로 대신하겠습니다. 
@@ -20,7 +20,7 @@ Apple은 5월 1일 부터, 새로운 개인정보 보호정책을 적용한 priv
 
 ### ✨ 설치하기 
 
-해당 스캐너는 [mint](https://github.com/yonaskolb/Mint) 를 통해서 배포하고 있기에 `mint`를 설치해주셔야 합니다. 
+해당 스캐너는 [mint](https://github.com/yonaskolb/Mint) 를 통해서 배포하고 있기에 `mint`를 설치해주셔야 합니다.  
 터미널에 아래 명령을 순차적으로 입력합니다. 
 
 - `mint` 설치하기
@@ -33,7 +33,7 @@ $ brew install mint
 $ mint install techinpark/ios_privacy_manifest_scanner
 ```
 
-위 과정을 통해서 성공적으로 `privacy-scanner`을 설치할 수 있습니다. 
+위 과정을 통해서 성공적으로 `privacy-scanner`을 설치 할 수 있습니다. 
 
 
 ## 🔎 privacy-scanner 사용해보기
