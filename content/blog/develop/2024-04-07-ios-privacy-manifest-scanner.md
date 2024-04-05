@@ -16,7 +16,9 @@ Apple은 5월 1일 부터, 새로운 개인정보 보호정책을 적용하여 `
 
 ## 🎁 privacy-scanner 소개 
 
-[ios_privacy_manifest_scanner](https://github.com/techinpark/ios_privacy_manifest_scanner) 은 나의 프로젝트에서 사용중인 `Required Reason API`를 모든 파일을 스캔하여 확인해주고, 해당 결과를 HTML 파일로 리포트 해줍니다. 아래에서 간단한 사용법에 대하여 설명 드리도록 하겠습니다. 
+- https://github.com/techinpark/ios_privacy_manifest_scanner
+
+나의 프로젝트에서 사용중인 `Required Reason API`를 모든 파일을 스캔하여 확인해주고, 해당 결과를 HTML 파일로 리포트 해줍니다. 아래에서 간단한 사용법에 대하여 설명 드리도록 하겠습니다. 
 
 ### ✨ 설치하기 
 
