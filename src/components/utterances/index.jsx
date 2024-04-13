@@ -3,10 +3,10 @@ import React, { useEffect } from 'react'
 import * as Dom from '../../utils/dom'
 import { THEME } from '../../constants'
 
-const src = 'https://utteranc.es/client.js'
+const src = 'https://giscus.app/client.js'
 const branch = 'master'
-const DARK_THEME = 'photon-dark'
-const LIGHT_THEME = 'github-light'
+const DARK_THEME = 'dark'
+const LIGHT_THEME = 'light'
 
 export const Utterences = ({ repo }) => {
   const rootElm = React.createRef()
@@ -16,13 +16,19 @@ export const Utterences = ({ repo }) => {
     const utterances = document.createElement('script')
     const utterancesConfig = {
       src,
-      repo,
-      branch,
-      theme: isDarkTheme ? DARK_THEME : LIGHT_THEME,
-      label: 'comment',
-      async: true,
-      'issue-term': 'pathname',
+      'data-repo': 'techinpark/blog-comments',
+      'data-repo-id': 'MDEwOlJlcG9zaXRvcnkxODg4MTIwNTU=',
+      'data-category': 'Announcements',
+      'data-mapping': 'pathname',
+      'data-strict': '0',
+      'data-reactions-enabled': '1',
+      'data-emit-metadata': '0',
+      'data-input-position': 'top',
+      'data-theme': isDarkTheme ? DARK_THEME : LIGHT_THEME,
+      'data-lang': 'ko',
+      'data-loading': 'lazy',
       crossorigin: 'anonymous',
+      async: true
     }
 
     Object.keys(utterancesConfig).forEach(configKey => {
