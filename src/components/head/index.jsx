@@ -60,7 +60,21 @@ export function Head({ description, lang, meta, keywords, title }) {
                   : []
               )
               .concat(meta)}
-          />
+          >
+            {/* Google Analytics 스크립트를 삽입 */}
+            <script
+              async
+              src={`https://www.googletagmanager.com/gtag/js?id=G-M0CDE3Z6Y4`}
+            />
+            <script>
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-M0CDE3Z6Y4');
+              `}
+            </script>
+          </Helmet>
         )
       }}
     />
