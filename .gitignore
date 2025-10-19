@@ -35,6 +35,12 @@ public/
 
 # Backup
 _v1_backup/
+_blog_backup/
+
+# Old files (migrated to Notion)
+content/
+assets/
+cli/
 
 # TypeScript
 *.tsbuildinfo
@@ -42,4 +48,3 @@ _v1_backup/
 # Build
 dist/
 build/
-_blog_backup/
