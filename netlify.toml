@@ -1,0 +1,16 @@
+[build]
+  command = "npm run build"
+  publish = "public"
+
+[build.environment]
+  NODE_VERSION = "22.8.0"
+  NPM_VERSION = "10.8.2"
+
+# Notion API 환경 변수는 Netlify 대시보드에서 설정 필요:
+# NOTION_TOKEN
+# NOTION_DATABASE_ID
+# GA_TRACKING_ID (선택)
+# GISCUS_REPO
+# GISCUS_REPO_ID
+# GISCUS_CATEGORY
+# GISCUS_CATEGORY_ID
