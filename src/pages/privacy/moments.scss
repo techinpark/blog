@@ -1,0 +1,29 @@
+.privacy-page {
+  max-width: 760px;
+
+  h1 {
+    margin-top: 0;
+  }
+
+  h2 {
+    font-size: 1.45rem;
+    margin-top: 2.75rem;
+  }
+
+  p,
+  li {
+    font-size: 1.05rem;
+  }
+
+  &__updated {
+    margin-bottom: 2rem;
+
+    body.light & {
+      color: var(--color-text-secondary-light);
+    }
+
+    body.dark & {
+      color: var(--color-text-secondary-dark);
+    }
+  }
+}
