@@ -28,8 +28,8 @@ const MomentsPrivacyPage: React.FC = () => (
       </p>
       <p>
         이 앱은 사진 파일, 캡션 또는 기기 내 사진·카테고리 데이터베이스를 당사의
-        서버, Firebase 또는 Amplitude로 업로드하지 않습니다. 앱은 위치 권한을
-        요청하거나 위치 정보를 기록하지 않습니다.
+        서버, Firebase 또는 Amplitude로 업로드하지 않습니다. 앱 기능은 위치 권한을
+        요청하거나 정밀 위치 정보를 기록하지 않습니다.
       </p>
 
       <h2>2. 기기 밖으로 전송되는 정보</h2>
@@ -42,7 +42,8 @@ const MomentsPrivacyPage: React.FC = () => (
         <li>
           <strong>Firebase Analytics 및 Firebase Installations</strong>: 앱 실행,
           화면 조회, 앱·기기 정보 및 Firebase 설치 식별자를 분석과 앱 기능
-          측정에 사용합니다.
+          측정에 사용합니다. Firebase Analytics는 마스킹된 IP 주소에서 파생한
+          대략적인 지역 정보도 분석에 사용할 수 있습니다.
         </li>
         <li>
           <strong>Firebase Crashlytics</strong>: 앱 오류와 비정상 종료를 조사하기
